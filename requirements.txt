@@ -1,0 +1,8 @@
+pymongo
+bcrypt
+
+python-dotenv
+pyotp
+requests
+dotenv
+ffmpeg-python
