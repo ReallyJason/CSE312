@@ -1,6 +1,9 @@
 import os
+from dotenv import load_dotenv
 import socketserver
 import time
+
+load_dotenv()
 
 from util.response import Response
 from util.request import Request

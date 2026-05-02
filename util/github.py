@@ -4,13 +4,10 @@ import os
 import urllib.parse
 import uuid
 
-from dotenv import dotenv_values
 import requests
 
 from util.database import users_collection
 from util.response import Response
-
-config = dotenv_values(".env")
 
 def get_authgithub(request, handler):
     client_id = os.environ.get("GITHUB_CLIENT_ID")
